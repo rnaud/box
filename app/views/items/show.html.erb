@@ -1,4 +1,4 @@
 <h1><%= @file %></h1>
 <div class="flowplayer">
-   <video src="@file"></video>
+   <video src="<%= "http://#{request.host_with_port}/files/#{@file}" %>"></video>
 </div>
