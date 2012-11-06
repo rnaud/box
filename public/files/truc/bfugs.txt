@@ -1,0 +1,29 @@
+Notifications qui marchent pas 
+Challenges qui marchent pas.
+Nombreux crash.
+Crash on mission creation.
+Infinite refresh sur la page feats.
+Page feats sans sens repenser la page avec les noms des missions
+Page profil feats d'un mec.
+Challenge only Facebook
+
+Push des specials via l'appli
+
+Open graph, finir implementer open graph
+Fixer bug notifications depuis admin
+
+Metrics, retention et viralité
+
+First experience
+Special + dates + header
+Trouver le bon moyen de montrer la bonne mission.
+
+
+
+Retour pour Marth
+
+
+mission page better version
+double notidications
+medals not awarded DONE
+lahan DONE

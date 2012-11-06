@@ -25,11 +25,7 @@ Box::Application.routes.draw do
   #     end
   #   end
 
-  # Sample resource route with sub-resources:
-  #   resources :products do
-  #     resources :comments, :sales
-  #     resource :seller
-  #   end
+  resources :items, :constraints => { :id => /.*/ }
 
   # Sample resource route with more complex sub-resources
   #   resources :products do
@@ -48,7 +44,7 @@ Box::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'files#index'
+  root :to => 'items#index'
 
   # See how all your routes lay out with "rake routes"
 
