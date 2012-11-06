@@ -1,4 +1,4 @@
-Boxroom::Application.configure do
+Box::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests
@@ -64,20 +64,4 @@ Boxroom::Application.configure do
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
-
-  # Mail settings
-  # config.action_mailer.delivery_method = :smtp
-  # config.action_mailer.smtp_settings = {
-  #   :address => 'mailhost',
-  #   :port => 587,
-  #   :user_name => 'user_name',
-  #   :password => 'password',
-  #   :authentication => 'plain'
-  # }
-
-  # Host
-  # config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-
-  # From address
-  # ActionMailer::Base.default :from => 'Boxroom <yourname@yourdomain.com>'
 end
