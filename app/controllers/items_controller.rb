@@ -19,8 +19,7 @@ class ItemsController < ApplicationController
 
   def show
     @file = CGI::unescape(params[:id])
-    @file = @file.gsub(/([\[\]\{\}\*\?\\])/, '\\\\\1')
-    
+
     respond_to do |format|
       format.html
     end
